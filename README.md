@@ -28,7 +28,14 @@
   - Hugging Face Transformers & Tokenizers
   - OpenAI GPT-4o-mini (for story generation)
   - BLIP blip-image-captioning-base (for image captioning)
- 
+
+## For Example - 
+when uploading an image as follows - 
+<p align='center'>
+<img width="350" alt="img_test1" src="https://github.com/user-attachments/assets/5b602276-e738-49c4-8b61-f64a1f433710">
+</p>
+
+we get - 
     
 <p align='center'>
   <img width="300" alt="st_test1" src="https://github.com/user-attachments/assets/cd65fd04-37bf-4c7a-857c-a525ce111660">
@@ -40,9 +47,9 @@
 
 ## Setup & Installation
 
-1. Clone the repository:
+1. Clone the repository
 2. Navigate into the project directory
-3. Install dependencies (for backend):
+3. Install dependencies (for backend) 
    ## Dependencies -
    - Flask
    - Flask-CORS
