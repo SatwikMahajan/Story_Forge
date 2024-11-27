@@ -53,10 +53,10 @@ we get -
    ## Dependencies -
    - Flask
    - Flask-CORS
-   - openai
-   - torch
+   - OpenAI
+   - Torch
    - Pillow
-   - transformers
+   - Transformers
    - Axios
      
 4. Set up environment variables (OPENAI_API_KEY=your-api-key)
