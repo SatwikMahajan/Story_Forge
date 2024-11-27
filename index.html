@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Forge AI</title>
+    <link rel="stylesheet" href="styles_me.css">
+</head>
+<body>
+    <div class="container">
+        <h1>❒  STORY FORGE AI 📖✨ ❒</h1>
+    
+        <form id="uploadForm">
+            <label for="imageInput">Upload Image</label>
+            <input type="file" id="imageInput" accept="image/*" required>
+            
+            <label for="genreSelect">Choose Story Genre</label>
+            <select id="genreSelect" required>
+                <option value="">Select Genre</option>
+            </select>
+            
+            <button type="submit">Generate My Story</button>
+        </form>
+        
+        <div id="loading" class="hidden">Generating your magical story...</div>
+        
+        <div id="genreDisplay"></div>
+        <div id="captionDisplay"></div>
+        <div class="story-container">
+            <div id="storyDisplay"></div>
+            <button id="copyStoryBtn" class="copy-btn hidden">📄</button>
+            <div id="copyConfirmation" class="copy-confirmation hidden">Copied!</div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
